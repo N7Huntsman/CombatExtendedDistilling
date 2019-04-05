@@ -17,54 +17,26 @@
 	<ingredients>
 		<li>
 		<filter>
-		<thingDefs>
-		<li>Chemfuel</li>
-		</thingDefs>
+			<thingDefs>
+			<li>Chemfuel</li>
+			</thingDefs>
 		</filter>
 		<count>25</count>
 		</li>
 	</ingredients>
 	<fixedIngredientFilter>
-	<thingDefs>
-		<li>Chemfuel</li>
-	</thingDefs>
+		<thingDefs>
+			<li>Chemfuel</li>
+		</thingDefs>
 	</fixedIngredientFilter>
+	<researchPrerequisite>BiofuelRefining</researchPrerequisite>	
 	<products>
 		<FSX>5</FSX>
 	</products>
 	<workAmount>20000</workAmount>
 	<recipeUsers>
 		<li>BiofuelRefinery</li>
-</recipeUsers>
-</RecipeDef>
-
-<RecipeDef ParentName="DistillingBase">
-	<defName>Distill_Pro</defName>
-	<label>Distill 5 Prometheum</label>
-	<jobString>Distilling Prometheum.</jobString>	
-	<description>Distill 5 Prometheum from Chemfuel.</description>	
-	<ingredients>
-		<li>
-		<filter>
-		<thingDefs>
-		<li>Chemfuel</li>
-		</thingDefs>
-		</filter>
-		<count>25</count>
-		</li>
-	</ingredients>
-	<fixedIngredientFilter>
-	<thingDefs>
-		<li>Chemfuel</li>
-	</thingDefs>
-	</fixedIngredientFilter>
-	<products>
-		<Prometheum>5</Prometheum>
-	</products>
-	<workAmount>20000</workAmount>
-	<recipeUsers>
-		<li>BiofuelRefinery</li>
 	</recipeUsers>
-</RecipeDef>	
+</RecipeDef>
 
 </Defs>
