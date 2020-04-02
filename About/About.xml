@@ -1,11 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <ModMetaData>
-	<name>Combat Extended: Chemical Distilling</name>
+	<name>Chemical Distilling for Combat Extended</name>
 	<author>N7Huntsman</author>
 	<url></url>
 	<supportedVersions>
 		<li>1.0</li>
+		<li>1.1</li>
 	</supportedVersions>
-	<description>Additional Combat Extended mod that allows FSX and Promethium to be distilled from Chemfuel.</description>
+	<packageId>n7huntsman.combatextended.distilling</packageId>
+	<description>Unofficial Combat Extended patch that allows FSX to be distilled from Chemfuel.</description>
 </ModMetaData>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Patch>
+	<Operation Class="PatchOperationSequence">
+		<success></success>
+		<operations>
+
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="Boomalope"]/comps/li[@Class="CombatExtended.CompProperties_ShearableRenameable"]</xpath>
+				<value>
+					  <li Class="CompProperties_Milkable">
+						<milkDef>Chemfuel</milkDef>
+						<milkIntervalDays>2</milkIntervalDays>
+						<milkAmount>12</milkAmount>
+						<milkFemaleOnly>false</milkFemaleOnly>
+					  </li>			
+				</value>
+			</li>
+
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="Boomrat"]/comps/li[@Class="CombatExtended.CompProperties_ShearableRenameable"]</xpath>
+				<value>
+					  <li Class="CompProperties_Milkable">
+						<milkDef>Chemfuel</milkDef>
+						<milkIntervalDays>4</milkIntervalDays>
+						<milkAmount>4</milkAmount>
+						<milkFemaleOnly>false</milkFemaleOnly>
+					  </li>			
+				</value>
+			</li>
+				
+		</operations>
+	</Operation>
+</Patch>

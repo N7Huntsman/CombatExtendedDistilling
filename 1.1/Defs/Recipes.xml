@@ -2,7 +2,7 @@
 <Defs> 
 
 <RecipeDef Name="DistillingBase" Abstract="true">
-<workSpeedStat>SmithingSpeed</workSpeedStat>
+<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
 <effectWorking>Cook</effectWorking>
 <soundWorking>Recipe_Smelt</soundWorking>
 <workSkill>Crafting</workSkill>
